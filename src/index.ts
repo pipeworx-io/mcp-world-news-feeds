@@ -72,6 +72,16 @@ const FEEDS: Record<string, FeedDef> = {
   'helsingin-sanomat': { title: "Helsingin Sanomat", url: "https://www.hs.fi/rss/teasers/etusivu.xml", category: "news", source: "hs.fi", description: "Finnish news — in Finnish" },
   politiken: { title: "Politiken", url: "https://politiken.dk/rss/senestenyt.rss", category: "news", source: "politiken.dk", description: "Danish news — in Danish" },
   cna: { title: "Channel NewsAsia", url: "https://www.channelnewsasia.com/rssfeeds/8395986", category: "news", source: "channelnewsasia.com", description: "Channel NewsAsia — Asia news (English)" },
+  dawn: { title: "Dawn", url: "https://www.dawn.com/feeds/home", category: "news", source: "dawn.com", description: "Pakistan news (English)" },
+  'notes-from-poland': { title: "Notes from Poland", url: "https://notesfrompoland.com/feed/", category: "news", source: "notesfrompoland.com", description: "Poland news & analysis (English)" },
+  'premium-times': { title: "Premium Times", url: "https://www.premiumtimesng.com/feed", category: "news", source: "premiumtimesng.com", description: "Nigeria investigative news" },
+  rappler: { title: "Rappler", url: "https://www.rappler.com/feed/", category: "news", source: "rappler.com", description: "Philippines news & investigations" },
+  'buenos-aires-times': { title: "Buenos Aires Times", url: "https://www.batimes.com.ar/feed", category: "news", source: "batimes.com.ar", description: "Argentina news (English)" },
+  'mexico-news-daily': { title: "Mexico News Daily", url: "https://mexiconewsdaily.com/feed/", category: "news", source: "mexiconewsdaily.com", description: "Mexico news (English)" },
+  'the-moscow-times': { title: "The Moscow Times", url: "https://www.themoscowtimes.com/rss/news", category: "news", source: "themoscowtimes.com", description: "Russia news, independent (English)" },
+  'kyiv-post': { title: "Kyiv Post", url: "https://www.kyivpost.com/feed", category: "news", source: "kyivpost.com", description: "Ukraine news (English)" },
+  'bangkok-post': { title: "Bangkok Post", url: "https://www.bangkokpost.com/rss/data/topstories.xml", category: "news", source: "bangkokpost.com", description: "Thailand news (English)" },
+  'the-daily-star-bd': { title: "The Daily Star (Bangladesh)", url: "https://www.thedailystar.net/frontpage/rss.xml", category: "news", source: "thedailystar.net", description: "Bangladesh news (English)" },
 };
 
 const tools: McpToolExport['tools'] = [
