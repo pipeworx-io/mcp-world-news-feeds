@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-world-news-feeds",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "World News Feeds MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-world-news-feeds": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "world-news-feeds"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-world-news-feeds"
+    "url": "git+https://github.com/pipeworx-io/mcp-world-news-feeds.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-02b79dbb7ae9b6fd13f9fff8a2675e4aefa222a2fe2f2db22df218ed59413ea4",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
