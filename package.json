@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-world-news-feeds",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "World News Feeds MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-02b79dbb7ae9b6fd13f9fff8a2675e4aefa222a2fe2f2db22df218ed59413ea4",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-3d81bcac80975d851c273d26017ac286f1b9b050b65cfca8060bef0620d2e0f7",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
