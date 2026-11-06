@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-world-news-feeds",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "World News Feeds MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "world-news-feeds",
     "gatewaySlug": "world-news-feeds",
-    "sourceHash": "v1-43b3bbf5e2bfadf3ebec5fe72b1fab8759bc72763013cd54c061e45e2165e107",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-f246961aa7477613567abe03bbe40f7f41d30199bc83df3d14df85bcf9254991",
+    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
   }
 }
